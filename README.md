@@ -19,44 +19,38 @@ Personalmente, uso el compilador **g++**, pero muchos utilizan **CodeBlocks**, y
 ```
 sudo apt update
 sudo apt install g++
-
 ```
 
 **En distribuciones basadas en Red Hat/Fedora:**
 
 ```
 sudo dnf install gcc-c++
-
 ```
 
 **En distribuciones basadas en Arch Linux:**
 
 ```
 sudo pacman -S gcc
-
 ```
 
 ### 2. Verificar la instalación
 
 ```
 g++ --version
-
 ```
 
-### 3. Compilar el programa
+### 3. Compilar y ejecutar el programa
 
 En el directorio en el que esté tu programa, abrí una consola y compilalo mediante el siguiente comando:
 
 ```
 g++ nombreDelArchivo.cpp -o nombreDelArchivo
-
 ```
 
 Ahora, podés ejecutarlo escribiendo:
 
 ```
 ./nombreDelArchivo
-
 ```
 
 ¡Y listo!
